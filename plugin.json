@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "settings-backup",
+  "name": "AERA Settings Backup",
+  "version": "0.1.0",
+  "description": "Host API 2 example for safely backing up and restoring AERA recovery preferences.",
+  "type": "ui-runtime",
+  "entry": "main",
+  "min_host_api": 2,
+  "protocol_version": 2,
+  "executable": "usr/bin/aera-plugin",
+  "icon": "backup",
+  "payload": "runtime.xz",
+  "payload_url": "https://github.com/AERA-Plugins/settings-backup/releases/download/v0.1.0/runtime.xz",
+  "payload_size": 16060,
+  "payload_sha256": "372b1e907625dba20e4881cbd246d9fc717212329f0673b59c51359921286c03",
+  "expanded_size": 32124,
+  "expanded_sha256": "62d26dc6504224d5356e2510d28645c1b266539035f25e14a2f2f6c7b965110a",
+  "member_count": 1,
+  "permissions": [
+    "display",
+    "touch-input",
+    "settings-backup",
+    "settings-restore"
+  ]
+}
