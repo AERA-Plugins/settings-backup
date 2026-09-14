@@ -6,6 +6,8 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
+#include "i18n.h"
+
 #define AERA_MAGIC 0x41325049U
 #define AERA_API 2U
 #define AERA_PRIMARY 1U
@@ -44,20 +46,22 @@ static int valid(const struct message *message) {
 }
 
 static int publish_page(int fd) {
-  return send_message(fd, BEGIN_PAGE, 0, 0, 0, "Settings Backup",
-      "Back up or restore AERA Recovery preferences. The isolated plugin never "
-      "receives the settings file; AERA performs each approved operation.") ||
+  return send_message(fd, BEGIN_PAGE, 0, 0, 0, aera_tr("Settings Backup"),
+      aera_tr("Back up or restore AERA Recovery preferences. AERA performs "
+              "each approved operation.")) ||
     send_message(fd, ADD_BUTTON, 1, 0, AERA_PRIMARY,
-                 "Back up settings", "Save the current recovery preferences") ||
+                 aera_tr("Back up settings"),
+                 aera_tr("Save the current recovery preferences")) ||
     send_message(fd, ADD_BUTTON, 2, 0, 0,
-                 "Restore settings", "Use the most recent settings backup") ||
+                 aera_tr("Restore settings"),
+                 aera_tr("Use the most recent settings backup")) ||
     send_message(fd, COMMIT_PAGE, 0, 0, 0, 0, 0);
 }
 
 int main(void) {
   const int fd = 4;
   if (send_message(fd, HELLO, 0, AERA_API, AERA_API, 0,
-                   "Settings Backup API 2 example")) return 78;
+                   aera_tr("Settings Backup API 2"))) return 78;
   uint32_t operation_request = 100;
   int page_published = 0;
   for (;;) {
