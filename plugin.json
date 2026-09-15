@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "settings-backup",
   "name": "AERA Settings Backup",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Back up and restore AERA Recovery preferences.",
   "type": "ui-runtime",
   "entry": "main",
@@ -11,11 +11,11 @@
   "executable": "usr/bin/aera-plugin",
   "icon": "backup",
   "payload": "runtime.xz",
-  "payload_url": "https://github.com/AERA-Plugins/settings-backup/releases/download/v0.2.0/runtime.xz",
-  "payload_size": 18076,
-  "payload_sha256": "7d955ec63f86369c9232acb9f0665f3aefe0dea78fbc365f9d79f1d8fb89ba9a",
-  "expanded_size": 39572,
-  "expanded_sha256": "2ec5e5dc04d5ea9b608370ba681342c602104d5f971509cae0a1b64e9b237504",
+  "payload_url": "https://github.com/AERA-Plugins/settings-backup/releases/download/v0.2.1/runtime.xz",
+  "payload_size": 20548,
+  "payload_sha256": "2fc7e00524b44319bf7b2f68a3e549456cbd6a3c2be72f563c9111800fb432f6",
+  "expanded_size": 50764,
+  "expanded_sha256": "98ae6ea7ca68ca353d586ffc3756e05894eada972bf1147fd5e8c40720ab7429",
   "member_count": 1,
   "permissions": [
     "display",
@@ -26,127 +26,131 @@
   "localizations": {
     "ar_SA": {
       "name": "AERA Settings Backup",
-      "description": "نسخ إعدادات الاسترداد لـ AERA احتياطيًا واستعادتها."
+      "description": "نسخ واستعادة تفضيلات AERA Recovery."
     },
     "bg_BG": {
       "name": "AERA Settings Backup",
-      "description": "Архивиране и възстановяване на предпочитания за възстановяване AERA."
+      "description": "Архивиране и възстановяване на предпочитанията на AERA Recovery."
     },
     "bn_BD": {
       "name": "AERA Settings Backup",
-      "description": "AERA রিকভারি পছন্দসমূহ ব্যাক আপ এবং পুনঃস্থাপন করুন।"
+      "description": "AERA Recovery এর পছন্দসমূহ ব্যাকআপ এবং পুনঃস্থাপন করুন।"
     },
     "ca_ES": {
       "name": "AERA Settings Backup",
-      "description": "Fes una còpia de seguretat i restaura les preferències de recuperació AERA."
+      "description": "Fes una còpia de seguretat i restaura les preferències de AERA Recovery."
     },
     "cs_CZ": {
       "name": "AERA Settings Backup",
-      "description": "Zálohovat a obnovit předvolby zotavení AERA."
+      "description": "Zálohujte a obnovte předvolby AERA Recovery."
     },
     "de_DE": {
       "name": "AERA Settings Backup",
-      "description": "AERA-Wiederherstellungseinstellungen sichern und wiederherstellen."
+      "description": "Einstellungen von AERA Recovery sichern und wiederherstellen."
     },
     "el_GR": {
       "name": "AERA Settings Backup",
-      "description": "Δημιουργήστε αντίγραφο ασφαλείας και επαναφέρετε τις προτιμήσεις Ανάκτησης του AERA."
+      "description": "Δημιουργία αντιγράφων ασφαλείας και επαναφορά των προτιμήσεων AERA Recovery."
     },
     "es-ES": {
       "name": "AERA Settings Backup",
-      "description": "Hacer copia de seguridad y restaurar las preferencias de recuperación de AERA."
+      "description": "Haga una copia de seguridad y restaure las preferencias de AERA Recovery."
     },
     "fa_IR": {
       "name": "AERA Settings Backup",
-      "description": "پشتیبان‌گیری و بازیابی تنظیمات بازیابی AERA."
+      "description": "از تنظیمات برگزیده AERA Recovery نسخه پشتیبان تهیه و بازیابی کنید."
     },
     "fr_FR": {
       "name": "AERA Settings Backup",
-      "description": "Sauvegarder et restaurer les préférences de récupération de AERA."
+      "description": "Sauvegarder et restaurer les préférences de AERA Recovery."
     },
     "he_IL": {
       "name": "AERA Settings Backup",
-      "description": "גבה ושחזר את העדפות השחזור של AERA."
+      "description": "גבה ושחזר העדפות של AERA Recovery."
     },
     "hi_IN": {
       "name": "AERA Settings Backup",
-      "description": "AERA रिकवरी प्राथमिकताओं का बैकअप और पुनर्स्थापना करें।"
+      "description": "AERA Recovery प्राथमिकताओं का बैक अप और पुनर्स्थापित करें।"
     },
     "hu": {
       "name": "AERA Settings Backup",
-      "description": "A AERA helyreállítási beállításainak mentése és visszaállítása."
+      "description": "A AERA Recovery beállításainak biztonsági mentése és visszaállítása."
     },
     "id_ID": {
       "name": "AERA Settings Backup",
-      "description": "Cadangkan dan pulihkan preferensi Pemulihan AERA."
+      "description": "Cadangkan dan pulihkan preferensi AERA Recovery."
     },
     "it_IT": {
       "name": "AERA Settings Backup",
-      "description": "Esegui il backup e ripristina le preferenze di ripristino di AERA."
+      "description": "Esegui il backup e ripristina le preferenze di AERA Recovery."
     },
     "ja_JP": {
       "name": "AERA Settings Backup",
-      "description": "バックアップして復元AERA Recovery設定を復元してください。"
+      "description": "AERA Recovery の設定をバックアップおよび復元します。"
     },
     "ko_KR": {
       "name": "AERA Settings Backup",
-      "description": "AERA 복구 설정 백업 및 복원"
+      "description": "AERA Recovery 설정을 백업하고 복원합니다."
     },
     "nl_NL": {
       "name": "AERA Settings Backup",
-      "description": "Back-up maken en herstellen van AERA Recovery-voorkeuren."
+      "description": "Maak een back-up van en herstel AERA Recovery-voorkeuren."
     },
     "no_NO": {
       "name": "AERA Settings Backup",
-      "description": "Sikkerhetskopier og gjenopprett AERA-gjenopprettingsinnstillinger."
+      "description": "Sikkerhetskopier og gjenopprett AERA Recovery-innstillinger."
     },
     "pl_PL": {
       "name": "AERA Settings Backup",
-      "description": "Twórz kopie zapasowe i przywracaj ustawienia odzyskiwania AERA."
+      "description": "Twórz kopię zapasową i przywracaj ustawienia AERA Recovery."
     },
     "pt_BR": {
       "name": "AERA Settings Backup",
-      "description": "Fazer backup e restaurar preferências de recuperação do AERA."
+      "description": "Fazer backup e restaurar as preferências de AERA Recovery."
     },
     "pt_PT": {
       "name": "AERA Settings Backup",
-      "description": "Fazer backup e restaurar as preferências de recuperação AERA."
+      "description": "Fazer cópia de segurança e restaurar as preferências do AERA Recovery."
     },
     "ro_RO": {
       "name": "AERA Settings Backup",
-      "description": "Faceți backup și restaurați preferințele de recuperare AERA."
+      "description": "Fă backup și restaurare pentru preferințele AERA Recovery."
     },
     "ru": {
       "name": "AERA Settings Backup",
-      "description": "Создайте резервную копию и восстановите настройки восстановления AERA."
+      "description": "Резервное копирование и восстановление настроек AERA Recovery."
     },
     "sr_Cyrl": {
       "name": "AERA Settings Backup",
-      "description": "Bekap i vraćanje AERA podešavanja za oporavak."
+      "description": "Направите резервну копију и вратите подешавања AERA Recovery."
+    },
+    "sv_SE": {
+      "name": "AERA Settings Backup",
+      "description": "Säkerhetskopiera och återställ AERA Recovery-inställningar."
     },
     "th_TH": {
       "name": "AERA Settings Backup",
-      "description": "สำรองและคืนค่าการตั้งค่าการกู้คืน AERA"
+      "description": "สำรองข้อมูลและกู้คืนการตั้งค่า AERA Recovery"
     },
     "tr_TR": {
       "name": "AERA Settings Backup",
-      "description": "AERA Kurtarma tercihlerini yedekle ve geri yükle."
+      "description": "AERA Recovery tercihlerini yedekleyin ve geri yükleyin."
     },
     "uk_UA": {
       "name": "AERA Settings Backup",
-      "description": "Створити резервну копію та відновити налаштування відновлення AERA."
+      "description": "Створення резервних копій та відновлення налаштувань AERA Recovery."
     },
     "vi_VN": {
       "name": "AERA Settings Backup",
-      "description": "Sao lưu và khôi phục các tùy chọn khôi phục AERA."
+      "description": "Sao lưu và khôi phục các tùy chọn AERA Recovery."
     },
     "zh_CN": {
       "name": "AERA Settings Backup",
-      "description": "备份并恢复 AERA 恢复偏好设置。"
+      "description": "备份和恢复 AERA Recovery 首选项。"
     },
     "zh_TW": {
       "name": "AERA Settings Backup",
-      "description": "備份並還原 AERA 恢復偏好設定。"
+      "description": "備份並還原 AERA Recovery 偏好設定。"
     }
   }
 }
